@@ -1,0 +1,11 @@
+# greayapp.github.io serves GreyApp's project sites; this file covers all of them.
+User-agent: *
+Allow: /
+
+# The benchmark's evidence screenshots (other sites' pages, with their ads) and
+# raw run records are published for checking, not for search.
+Disallow: /tiktok-downloader-benchmark/results/*/evidence/
+Disallow: /tiktok-downloader-benchmark/results/*/runs/
+
+Sitemap: https://greayapp.github.io/tiktok-downloader-benchmark/sitemap.xml
+Sitemap: https://greayapp.github.io/getsocialvideo/sitemap.xml
